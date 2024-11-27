@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quienes somos</title>
+
+    <!--CSS-->
+    <Style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Estilo del cuerpo de la pagina */
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        /* Header, logo y titulo */
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: rgb(255, 115, 0);
+            color: rgb(255, 255, 255);
+        }
+
+        /* Estilo de la barra de navegacion */
+        .navbar {
+            display: flex;
+            background-color: #333;
+        }
+
+        /* Estilo de los enlaces de la barra de navegacion */
+        .navbar a {
+            color: rgb(255, 115, 0);
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        /* Cambiar el color cuando paso el mouse */
+        .navbar a:hover {
+            background-color: #ff5e00;
+            color: black;
+        }
+
+        /* Contenedor de columnas */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* Barra lateral */
+        .side {
+            flex: 30%;
+            background-color: #ff7b00;
+            padding: 20px;
+        }
+
+        /*Columna principal */
+        .main {
+            flex: 70%;
+            background-color: rgb(248, 133, 26);
+            padding: 20px;
+        }
+
+        /* Imagen */
+        .imagenfalsa {
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+        }
+
+        /*Flex Responsive */
+        @media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+
+    </Style>
+</head>
+<body>
+   
+
+    <!--Header-->
+    <div class="header">
+        <h1>Sobre Mi:</h1>
+    </div>
+  
+
+    <!--Barra de navegacion-->
+    <div class="navbar">
+        
+        <a href="mapa.html"> <img src="izquierda.gif" alt="flechita izquierda" width="30" height="19"></a>
+        <a href="index.html">Inicio</a>
+        <a href="Quien soy.html">Quien soy</a>
+        <a href="mis gustos.html">Mis gustos</a>
+        <a href="hobbis.html">Hobbis</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+    
+    <!--Contenido-->
+    <div class="row">
+        <div class="side">
+            <h2>Acerca de Mi:</h2>
+            <h5>Mi foto</h5>
+            <div class="imagenfalsa"><img src="yo2.webp" alt="yo" width="250" height="300"></div>
+            <img src="derecha flecha.gif" alt="derecha flecha" width="200" height="100">
+
+            
+        </div>
+
+        <div class="main">
+            <h2>A continuacion veremos...</h2>
+            <h5>Mis peliculas favoritas , Mis comidas favorita , Libros , deporte , hobbis y contacto etc...</h5>
+            <div class="imagenfalsa"><img src="sobre mi.png" alt="" width="300" height="300"></div>
+            <br>
+            <p>Soy un joven llamado Angel Mora naci el 26 de Noviembre en el año 2009 , Mi madre llamda jocelyn me trajo a el mundo el la maternidad de los minas cresi en un ogar , mis bonito y rodeado de personas amables , juanto a mi padre Rufino mora.</p>
+            <br>
+           
+        </div>
+    </div>
+
+    <!--Footer-->
+    <body class="footer">
+        <a href="https://www.instagram.com">
+            <img src="ig.png" alt="instagram" width="40" height="40">
+        </a>
+    </body>
+</body>
+</html>

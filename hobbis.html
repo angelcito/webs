@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quienes somos</title>
+
+    <!--CSS-->
+    <Style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Estilo del cuerpo de la pagina */
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        /* Header, logo y titulo */
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: rgb(255, 115, 0);
+            color: rgb(255, 255, 255);
+        }
+
+        /* Estilo de la barra de navegacion */
+        .navbar {
+            display: flex;
+            background-color: #333;
+        }
+
+        /* Estilo de los enlaces de la barra de navegacion */
+        .navbar a {
+            color: rgb(255, 115, 0);
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        /* Cambiar el color cuando paso el mouse */
+        .navbar a:hover {
+            background-color: #ff5e00;
+            color: black;
+        }
+
+        /* Contenedor de columnas */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* Barra lateral */
+        .side {
+            flex: 30%;
+            background-color: #ff9100;
+            padding: 20px;
+        }
+
+        /*Columna principal */
+        .main {
+            flex: 70%;
+            background-color: rgba(255, 255, 255, 0);
+            padding: 20px;
+        }
+
+        /* Imagen */
+        .imagenfalsa {
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+        }
+
+        /*Flex Responsive */
+        @media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+
+    </Style>
+</head>
+<body>
+   
+
+    <!--Header-->
+    <div class="header">
+        <h1>Sobre Mi:</h1>
+    </div>
+  
+
+    <!--Barra de navegacion-->
+    <div class="navbar">
+        
+        <a href="mapa.html"> <img src="izquierda.gif" alt="flechita izquierda" width="30" height="19"></a>
+        <a href="index.html">Inicio</a>
+        <a href="Quien soy.html">Quien soy</a>
+        <a href="mis gustos.html">Mis gustos</a>
+        <a href="hobbis.html">Hobbis</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+    
+    <!--Contenido-->
+    <div class="row">
+        <div class="side">
+            <h2>Mis Hobbis:</h2>
+            <h5>Escuchas musica :</h5>
+            <h4>Mi musica favorita </h4>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7hsXtCkEYND9gMvDxGRG9z?utm_source=generator&theme=0" width="250" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <h5>Jugar beisbol:</h5>
+            <img src="mi pacion.gif" alt="futuro" width="250" height="300">
+            <h4>Ya que es un deporte que me gusta mucho porque siempre me a llamadoa  al temcion y quiero llegar a cumplir mi gran sueño de ser alguien en el mañana (Depoder filmar y poder llegar a las grandes ligas con Dios).</h4>
+        </div>
+
+        <div class="main">
+            <h2>A continuacion veremos mis hobbis :</h2>
+            
+            <div class="imagenfalsa"><img src="P.B.png" alt="" width="600" height="300"></div>
+            <h3>El béisbol fue traído por primera vez a la República Dominicana por los cubanos que huían de la Guerra de los Diez Años. Al principio, luchó por ganar popularidad, limitándose principalmente a los exiliados cubanos, pero su popularidad creció a medida que más y más dominicanos nativos lo practicaban.</h3>
+            <h5>Puede pulsar el guante de abajo para conocer mas a fondo soble la Historia del Beisboll...</h5>
+            <img src="abajo (2).png" alt="flechita" width="300" height="400">
+            <br>
+            <p></p>
+            <br>
+           
+        </div>
+    </div>
+
+    <!--Footer-->
+    <body class="footer">
+        <a href="https://www.mlb.com/es/news/featured/la-historia-del-beisbol-en-la-republica-dominicana">
+            <img src="beisbol.png" alt="instagram" width="40" height="40">
+        </a>
+    </body>
+</body>
+</html>

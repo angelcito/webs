@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quienes somos</title>
+    <link rel="stylesheet" href="styler.css">
+
+    <!--CSS-->
+    <Style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Estilo del cuerpo de la pagina */
+        body {
+            background-color: #ff5e00;
+            font-family: Arial;
+            margin: 0;
+            
+        }
+
+        /* Header, logo y titulo */
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: rgb(255, 115, 0);
+            color: rgb(255, 255, 255);
+        }
+
+        /* Estilo de la barra de navegacion */
+        .navbar {
+            display: flex;
+            background-color: #333;
+        }
+
+        /* Estilo de los enlaces de la barra de navegacion */
+        .navbar a {
+            color: rgb(255, 115, 0);
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        /* Cambiar el color cuando paso el mouse */
+        .navbar a:hover {
+            background-color: #ff5e00;
+            color: black;
+        }
+
+        /* Contenedor de columnas */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* Barra lateral */
+        .side {
+            flex: 30%;
+            background-color: #ff5e00;
+            padding: 20px;
+        }
+
+        /*Columna principal */
+        .main {
+            flex: 70%;
+            background-color: #ce6426;
+            padding: 20px;
+        }
+
+        /* Imagen */
+        .imagenfalsa {
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+        }
+
+        /*Flex Responsive */
+        @media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+
+    </Style>
+</head>
+<body>
+   
+
+    <!--Header-->
+    <div class="header">
+        <h1>Sobre Mi:</h1>
+    </div>
+  
+
+    <!--Barra de navegacion-->
+    <div class="navbar">
+        <a href="mapa.html"> <img src="izquierda.gif" alt="flechita izquierda" width="30" height="19"></a>
+        <a href="index.html">Inicio</a>
+        <a href="Quien soy.html">Quien soy</a>
+        <a href="mis gustos.html">Mis gustos</a>
+        <a href="hobbis.html">Hobbis</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+
+    
+    <!--Contenido-->
+    <div class="row">
+        <div class="side">
+            <h2>Mis Gustos :</h2>
+            <h5>Foto de los que veremos a contunuacion</h5>
+            <h6>Mi deporte favorito mi pacion (El Beisboll)</h6>
+            <div class="imagenfalsa"><img src="beisbol.png" alt="yo" width="250" height="300"></div>
+            <p>Es considerado uno de los deportes más populares en República Dominicana, Panamá, Corea del Sur, Cuba, Estados Unidos, Curazao, Aruba, Japón, Nicaragua, Puerto Rico, Taiwán, México y Venezuela, y no tan popular, pero con una cantidad importante de aficionados, en países como Canadá, Australia, Sudáfrica, Colombia, China, Países Bajos, Nueva Zelanda e Italia. Los países considerados potencias de este deporte se encuentran en América (Norte y el Caribe) y se juega en un gran campo cubierto completamente por césped natural o artificial, con excepción de una zona llamada línea del corredor, donde los jugadores de la ofensiva corren para alcanzar las bases ubicadas en los vértices del área cuadrangular llamada diamante, y anotar así como el área del lanzador, donde el terreno es una loma de tierra.</p>
+            <h3>Mis Libro favorito...</h3>
+            <img src="Libro.jpg" alt="libro" width="250" height="300">
+            <p>La sociedad se esta moviendo a un nuevo orden. Para encontrar un lugar en esa sociedad, primero tenemos que encontrar ese lugar en esa sociedad. Reflexiones para la vida recoge las mas hermosas historias de todos los tiempos. ...</p>
+            <h3>Pelicula Favorita :</h3>
+            <img src="rapido.jpg" alt="pelicula" width="250" height="300">
+            <p>Desde que el robo de Dom y Brian en Río los dejó a ellos y a su equipo con mucho dinero, ellos se dispersan por todo el mundo; sin embargo, ellos tienen que vivir como fugitivos, incapaces de regresar con sus familias. Mientras tanto, el agente Hobbs ha estado persiguiendo a unos conductores mercenarios cuyo segundo al mando es alguien que Don conoce. Incapaz de detenerlo solo, Hobbs le pide ayuda a Dom y su equipo a cambio del perdón para todos.</p>
+            
+        </div>
+
+        <div class="main">
+            <h2>A continuacion veremos...</h2>
+            <h6>Deporte , comida , pilicula , libro</h6>
+            <h3>Comida favorita :</h3>
+            <img src="COMIDA1 (2).png" alt="comida" width="250" height="400">
+            <p>En la mesa nacional no puede faltar la llamada bandera dominicana, compuesta por arroz blanco, habichuelas guisadas, ensalada verde, pollo guisado dominicano, res o cerdo, y los tostones</p>
+            <img src="comida2.png" alt="comida2" width="250" height="400">
+            <p>La pasta es un alimento de la categoría de los cereales y derivados. Las proporciones de los nutrientes que tiene pueden variar según el tipo y la cantidad del alimento, además de otros factores que puedan intervenir como la preparación.</p>
+            <h1>Ejecicios Fisicos :</h1>
+            <img src="fisico.png" alt="fisco" width="250" height="300">
+            <p>Se trata de un término amplio que engloba el concepto de “ejercicio” físico. Ejercicio físico: es un término más específico que implica una actividad física planifica- da, estructurada y repetitiva realizada con una meta, con frecuencia con el objetivo de me- jorar o mantener la condición física de la persona.</p>
+            <h3>Dirección <img src="abajo (2).png" alt="flacha" width="19" height="19"></h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.9681750572413!2d-69.92135999999999!3d18.4851007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89c78951c3cf%3A0x505aaa4426118d4f!2sCentro%20Educativo%20Santa%20Luisa%20De%20Marillac!5e0!3m2!1ses!2sdo!4v1731645386121!5m2!1ses!2sdo" width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            
+        </div>
+    </div>
+
+    <!--Footer-->
+    <body class="footer">
+        <a href="https://www.instagram.com">
+            <img src="ig.png" alt="instagram" width="40" height="40">
+        </a>
+    </body>
+</body>
+</html>
